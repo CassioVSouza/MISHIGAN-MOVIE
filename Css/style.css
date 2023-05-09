@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    font-family: var(--Font);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+}
+:root{
+    --VermelhoFraco: #D93250;
+    --VermelhoForte: #F25757;
+    --VermelhoEscuro: #732743;
+    --Preto: #030F26;
+    --Branco: #F2F2F2;
+    --Font: 'Roboto', sans-serif;
+}
+/*Navegacão/Header*/
+
+header{
+    color: var(--Branco);
+    background-color: var(--VermelhoEscuro);
+    border-bottom: 1px #030F26 solid;
+}
+header > nav > div > h2{
+    display: inline;
+    font-size: 5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header > nav > div > h2 > a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+header > nav > h1 > span{
+    color: #D93250;
+}
+.alinhar{
+    text-align: center;
+}
+/*Corpo do sobre*/
+.containersobre{
+    padding-top: 10%;
+    padding-bottom: 12%;
+}
+.containersobre p{
+    display: block;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    color: #F2F2F2;
+    margin-top: 14%;
+    background-color: #7327435e;
+    border-radius: 10px;
+    padding: 1%;
+}
+.containersobre h3{
+    margin-top: 10%;
+    color: #F2F2F2;
+}
+.containersobre{
+    background-image: url(movie3.jpg);
+    background-size: cover;
+}
+/*Footer*/
+footer{
+    background-color: #030F26;
+}
