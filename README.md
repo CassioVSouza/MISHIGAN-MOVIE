@@ -1,4 +1,4 @@
-# MISHIGAN-MOVIE
+# MISHIGAN-MOVIE (IN PROGRESS)
 
 A site made for university purposes 
 
